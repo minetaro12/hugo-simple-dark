@@ -21,6 +21,7 @@ a:hover {
 
 .footer-text > a {
   color: white;
+  border-bottom: solid 1px;
 }/* top title*/
 .title {
   color: white;
