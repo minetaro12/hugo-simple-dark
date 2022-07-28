@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SimpleDark</title>
-    <link>https://minetaro12.github.io/hugo-simple-dark/</link>
-    <description>Recent content on SimpleDark</description>
+    <title>hugo on SimpleDark</title>
+    <link>https://minetaro12.github.io/hugo-simple-dark/tags/hugo/</link>
+    <description>Recent content in hugo on SimpleDark</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>&amp;copy; 2022 yourname</copyright>
-    <lastBuildDate>Thu, 28 Jul 2022 15:01:03 +0900</lastBuildDate><atom:link href="https://minetaro12.github.io/hugo-simple-dark/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jul 2022 15:01:03 +0900</lastBuildDate><atom:link href="https://minetaro12.github.io/hugo-simple-dark/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Syntax</title>
       <link>https://minetaro12.github.io/hugo-simple-dark/posts/markdown-syntax/</link>
@@ -16,24 +16,6 @@
       <guid>https://minetaro12.github.io/hugo-simple-dark/posts/markdown-syntax/</guid>
       <description>Headings H1 H2 H3 H4 H5 H6 Code Blocks Inline Code This is Inline Code
 Code block with backticks &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34; /&amp;gt; &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; List Types Ordered List First item Second item Third item Unordered List List item Another item And another item Nested list Item First Sub-item Second Sub-item Tables Name Age Bob 27 Alice 23 </description>
-    </item>
-    
-    <item>
-      <title>Hello</title>
-      <link>https://minetaro12.github.io/hugo-simple-dark/posts/hello/</link>
-      <pubDate>Thu, 28 Jul 2022 14:56:53 +0900</pubDate>
-      
-      <guid>https://minetaro12.github.io/hugo-simple-dark/posts/hello/</guid>
-      <description>Hello World!! </description>
-    </item>
-    
-    <item>
-      <title>Archives</title>
-      <link>https://minetaro12.github.io/hugo-simple-dark/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://minetaro12.github.io/hugo-simple-dark/archives/</guid>
-      <description></description>
     </item>
     
   </channel>
