@@ -122,6 +122,16 @@ time {
   background-color: #22272e;
 }
 
+/* hilightjs-line-numbers */
+.hljs-ln {
+  margin-bottom: 0;
+  border: none;
+}
+ 
+.hljs-ln tr, .hljs-ln td {
+  border: none;
+}
+
 /* mobile */
 @media screen and (max-width: 600px) {
   .outer {
