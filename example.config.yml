@@ -1,6 +1,7 @@
 baseURL: https://example.org/
 languageCode: ja-jp
 title: My New Site
+theme: hugo-simple-dark
 copyright: "&copy; 2022 yourname"
 
 menu:
