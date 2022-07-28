@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hello on SimpleDark</title>
+    <link>https://minetaro12.github.io/hugo-simple-dark/tags/hello/</link>
+    <description>Recent content in hello on SimpleDark</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>&amp;copy; 2022 yourname</copyright>
+    <lastBuildDate>Thu, 28 Jul 2022 14:56:53 +0900</lastBuildDate><atom:link href="https://minetaro12.github.io/hugo-simple-dark/tags/hello/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>https://minetaro12.github.io/hugo-simple-dark/posts/hello/</link>
+      <pubDate>Thu, 28 Jul 2022 14:56:53 +0900</pubDate>
+      
+      <guid>https://minetaro12.github.io/hugo-simple-dark/posts/hello/</guid>
+      <description>Hello World!! </description>
+    </item>
+    
+  </channel>
+</rss>
