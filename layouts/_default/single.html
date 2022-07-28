@@ -12,6 +12,10 @@
     <a href="{{ .Permalink }}" class="tags">{{ .LinkTitle }}</a>
   {{ end }}
   <h1 class="post-title">{{ .Title }}</h1>
+  <details>
+    <summary>Toc</summary>
+    {{ .TableOfContents }}
+  </details>
   <article>
     {{ .Content }}
   </article>
