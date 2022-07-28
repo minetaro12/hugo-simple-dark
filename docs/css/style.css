@@ -61,12 +61,7 @@ a:hover {
 }li ul {
   margin: 0 0 0 1em;
   padding: 0;
-  }/* mobile */
-@media screen and (max-width: 600px) {
-  .outer {
-    width: 100%;
-  }
-}article {
+  }article {
   line-height: 1.5;
 }
 
@@ -111,6 +106,11 @@ a:hover {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 600px) {
+  .outer {
+    width: 100%;
+  }
+}
 table {
   border-collapse: collapse;
 }
