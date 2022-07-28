@@ -3,6 +3,7 @@ languageCode: ja-jp
 title: SimpleDark
 theme: hugo-simple-dark
 copyright: "&copy; 2022 yourname"
+canonifyurls: true
 
 menu:
   header:
