@@ -1,0 +1,13 @@
+/* hilightjs-line-numbers */
+.hljs-ln {
+  margin-bottom: 0;
+  border: none;
+}
+ 
+.hljs-ln tr, .hljs-ln td {
+  border: none;
+}
+
+.hljs-ln-n {
+  padding-right: 1rem;
+}

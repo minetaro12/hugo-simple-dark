@@ -1,0 +1,12 @@
+/* top title*/
+.title {
+  color: white;
+  text-decoration: none;
+}
+
+/* header menu */
+.header-menu {
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}

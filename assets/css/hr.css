@@ -1,0 +1,12 @@
+hr {
+  border: none;
+  border-top: 1px solid;
+  color: #4d4d4d;
+}
+
+/* out hr */
+.outhr {
+  border-top: 2px double;
+  color: #cccccc;
+  margin: 2rem auto;
+}

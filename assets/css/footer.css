@@ -1,0 +1,8 @@
+.footer-text {
+  font-size: small;
+  margin-bottom: 2rem;
+}
+
+.footer-text > a {
+  color: white;
+}

@@ -1,0 +1,16 @@
+body {
+  background-color: #171717;
+  color: #cccccc;
+  font-family: system-ui,sans-serif;
+  word-break: break-word;
+}
+
+.center {
+  text-align: center;
+}
+
+.outer {
+  width: 600px;
+  margin: 0 auto;
+}
+

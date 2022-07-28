@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/style.css">
+    {{ $CSS := resources.Match "css/**.css" | resources.Concat "css/style.css" }}
+    <link rel="stylesheet" href="{{ $CSS.RelPermalink }}">
     {{ block "head" . }}
     {{ end }}
     <title>

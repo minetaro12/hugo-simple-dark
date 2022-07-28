@@ -1,0 +1,9 @@
+a {
+  color: lightskyblue;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a:hover {
+  border-bottom: solid;
+}
