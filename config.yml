@@ -1,0 +1,25 @@
+baseURL: https://example.org/
+languageCode: ja-jp
+title: SimpleDark
+theme: hugo-simple-dark
+copyright: "&copy; 2022 yourname"
+
+menu:
+  header:
+    - name: Posts
+      weight: 1
+      url: /posts
+
+    - name: Tags
+      weight: 2
+      url: /tags
+
+    - name: Archives
+      weight: 3
+      url: /archives
+
+    - name: MyGithub
+      weight: 4
+      url: https://github.com/minetaro12
+      params:
+        newtab: true

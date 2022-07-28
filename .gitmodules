@@ -1,0 +1,4 @@
+[submodule "themes/hugo-simple-dark"]
+	path = themes/hugo-simple-dark
+	url = https://github.com/minetaro12/hugo-simple-dark
+	branch = master
