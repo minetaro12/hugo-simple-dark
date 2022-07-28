@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    {{ block "head" . }}
+    {{ end }}
+    <title>
+      {{ block "title" . }}
+      {{ .Site.Title }}
+      {{ end }}
+    </title>
+  </head>
+  <body>
+    <div class="outer">
+      <header class="center">
+        {{ partial "header" . }}
+      </header>
+      <div class="inner">
+        {{ block "main" . }}
+        {{ end }}
+      </div>
+      <footer class="center">
+        {{ partial "footer" . }}
+      </footer>
+    </div>
+  </body>
+</html>

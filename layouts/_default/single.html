@@ -1,0 +1,20 @@
+{{ define "head" }}
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github-dark-dimmed.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+{{ end }}
+
+{{ define "title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+  <time>{{ .Date.Format "2006-01-02 15:04:05" }}</time>
+  {{ range (.GetTerms "tags") }}
+    <a href="{{ .Permalink }}" class="tags">{{ .LinkTitle }}</a>
+  {{ end }}
+  <h1 class="post-title">{{ .Title }}</h1>
+  <article>
+    {{ .Content }}
+  </article>
+{{ end }}

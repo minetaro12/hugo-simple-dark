@@ -1,0 +1,20 @@
+{{ define "head" }}
+  {{ if os.FileExists "content/_index.md" }}
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github-dark-dimmed.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+{{ if os.FileExists "content/_index.md" }}
+    {{ .Content }}
+  {{ else }}
+    {{ range .Site.RegularPages }}
+      {{ if in .Permalink "posts" }}
+        <p><a href="{{ .Permalink }}">{{ .Title }}</a> -
+        <time>{{ .Date.Format "2006-01-02" }}</time></p>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}

@@ -1,0 +1,21 @@
+baseURL: https://example.org/
+languageCode: ja-jp
+title: My New Site
+copyright: "&copy; 2022 yourname"
+
+menu:
+  header:
+    - name: Posts
+      weight: 1
+      url: /posts
+
+    - name: Tags
+      weight: 2
+      url: /tags
+
+    - name: MyGithub
+      weight: 3
+      url: https://github.com/
+      params:
+        newtab: true
+

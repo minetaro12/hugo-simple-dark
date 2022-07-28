@@ -1,0 +1,17 @@
+{{ define "title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+  <h2>{{ .Title }}</h2>
+  {{ if eq .Title "Tags" }}
+    {{ range .Pages.ByTitle }}
+    <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+    {{ end }}
+  {{ else }}
+    {{ range .Pages }}
+      <p><a href="{{ .Permalink }}">{{ .Title }}</a> - 
+      <time>{{ .Date.Format "2006-01-02" }}</time></p>
+    {{ end }}
+  {{ end }}
+{{ end }}

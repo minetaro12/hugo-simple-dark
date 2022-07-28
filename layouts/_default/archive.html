@@ -1,0 +1,18 @@
+{{ define "title" }}
+{{ .Title }} - {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+  <h2>{{ .Title }}</h2>
+  {{ range .Site.RegularPages.GroupByDate "2006" }}
+    {{ if ge .Key 2000}}
+      <h3>{{ .Key }}</h3>
+      {{ range .Pages }}
+        {{ if in .Permalink "posts" }}
+          <p><a href={{ .Permalink }}>{{ .Title }}</a> -
+          <time>{{ .Date.Format "01-02" }}</time></p>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
