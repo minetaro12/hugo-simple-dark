@@ -3,7 +3,7 @@ title: "Markdown Syntax"
 date: 2022-07-28T15:01:03+09:00
 tags: ["hugo","markdown"]
 comments: true
-showToc: true
+showToc: false
 ---
 # Headings
 
