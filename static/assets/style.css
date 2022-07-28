@@ -132,6 +132,10 @@ time {
   border: none;
 }
 
+.hljs-ln-n {
+  padding-right: 1rem;
+}
+
 /* mobile */
 @media screen and (max-width: 600px) {
   .outer {
