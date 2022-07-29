@@ -1,6 +1,8 @@
 {{ if eq .Params.showToc true }}
-  <details>
-    <summary>Toc</summary>
+  <div class="toc">
+    <details>
+      <summary>Toc</summary>
       {{ .TableOfContents }}
     </details>
+  </div>
 {{ end }}
