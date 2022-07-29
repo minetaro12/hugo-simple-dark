@@ -6,8 +6,7 @@ a {
 
 a:hover {
   border-bottom: solid;
-}/* firacode */
-@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);code {
+}code {
   background-color: #22272e;
   color: #adbac7;
   display: inline-block;
@@ -61,7 +60,7 @@ a:hover {
 }li ul {
   margin: 0 0 0 1em;
   padding: 0;
-  }article {
+}article {
   line-height: 1.5;
 }
 
@@ -110,8 +109,7 @@ a:hover {
   .outer {
     width: 100%;
   }
-}
-table {
+}table {
   border-collapse: collapse;
 }
 
