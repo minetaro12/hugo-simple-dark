@@ -13,7 +13,7 @@
   {{ end }}
   <h1 class="post-title">{{ .Title }}</h1>
   {{ partial "toc" . }}
-  <article>
+  <article class="post-content">
     {{ .Content }}
   </article>
   {{ partial "comments" . }}
