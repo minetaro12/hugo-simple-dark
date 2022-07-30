@@ -20,3 +20,6 @@ menu:
       params:
         newtab: true
 
+params:
+  description: Hello
+  image: #ogp image

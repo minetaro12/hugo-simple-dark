@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{ $CSS := resources.Match "css/**.css" | resources.Concat "css/style.css" }}
     <link rel="stylesheet" href="{{ $CSS.RelPermalink }}">
+    {{ partial "ogp" . }}
     {{ block "head" . }}
     {{ end }}
     <title>
