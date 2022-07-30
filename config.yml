@@ -24,3 +24,7 @@ menu:
       url: https://github.com/minetaro12
       params:
         newtab: true
+
+params:
+  description: Hugo SimpleDark Theme
+  image: img/ogp.jpg
