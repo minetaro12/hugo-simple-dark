@@ -20,3 +20,19 @@
 {{- else if .Site.Params.description }}
   <meta property="og:description" content="{{ .Site.Params.description }}" />
 {{- end }}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+{{- if .Params.image }}
+  {{- $imageRes := .Resources.GetMatch .Params.image -}}
+  <meta name="twitter:image" content="{{ $imageRes.Permalink }}" />
+{{- else if .Site.Params.image }}
+  {{- $imageRes := resources.Get .Site.Params.image -}}
+  <meta name="twitter:image" content="{{ $imageRes.Permalink }}" />
+{{- end }}
+<meta name="twitter:title" content="{{ .Title }}">
+{{- if .Description }}
+  <meta name="twitter:description" content="{{ .Description }}" />
+{{- else if .Site.Params.description }}
+  <meta name="twitter:description" content="{{ .Site.Params.description }}" />
+{{- end }}
