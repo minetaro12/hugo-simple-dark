@@ -1,3 +1,8 @@
 img {
+  display: block;
   max-width: 100%;
+}
+
+.post-content img {
+  border-radius: 4px;
 }
