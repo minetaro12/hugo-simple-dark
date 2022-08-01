@@ -56,7 +56,12 @@ a:hover {
   color: #cccccc;
   margin: 2rem auto;
 }img {
+  display: block;
   max-width: 100%;
+}
+
+.post-content img {
+  border-radius: 4px;
 }li ul {
   margin: 0 0 0 1em;
   padding: 0;
