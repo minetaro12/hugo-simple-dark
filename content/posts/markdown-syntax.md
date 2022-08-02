@@ -22,7 +22,7 @@ showToc: false
 `This is Inline Code`
 
 ### Code block with backticks
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
