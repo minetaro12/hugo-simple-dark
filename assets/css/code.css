@@ -1,8 +1,11 @@
 code {
-  background-color: #22272e;
-  color: #adbac7;
+  background-color: #353535;
   display: inline-block;
   font-family: 'Fira Code', monospace;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+pre {
+  overflow: auto;
 }
