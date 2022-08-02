@@ -28,3 +28,7 @@ menu:
 params:
   description: Hugo SimpleDark Theme
   image: img/ogp.jpg
+
+markup:
+  highlight:
+    noClasses: false
