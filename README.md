@@ -4,6 +4,8 @@
 
 [Demo](https://minetaro12.github.io/hugo-simple-dark)
 
+デモサイトのソースは[examplesite](https://github.com/minetaro12/hugo-simple-dark/tree/examplesite)ブランチにあります
+
 ## 使い方
 
 ```
