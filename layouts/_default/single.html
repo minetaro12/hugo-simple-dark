@@ -16,5 +16,7 @@
   <article class="post-content">
     {{ .Content }}
   </article>
-  {{ partial "comments" . }}
+  {{ if .Params.comments }}
+    {{ partial "comments" . }}
+  {{ end }}
 {{ end }}
