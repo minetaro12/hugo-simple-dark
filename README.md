@@ -30,6 +30,40 @@ $ cp themes/hugo-simple-dark/archetypes/default.md archetypes/default.md
 $ hugo new posts/hello.md
 ```
 
+### config.ymlの書き方
+
+```yml
+baseURL: https://example.org/
+languageCode: ja-jp
+title: My New Site
+theme: hugo-simple-dark
+copyright: "&copy; 2022 yourname" #フッター部分の文字列
+
+menu:
+  header:
+    - name: Posts #メニューの名前
+      weight: 1 #表示される順番
+      url: /posts #推移先のURL
+
+    - name: Tags
+      weight: 2
+      url: /tags
+
+    - name: MyGithub
+      weight: 3
+      url: https://github.com/
+      params:
+        newtab: true #新しいタブで開くようにする
+
+params:
+  description: Hello #OGPの説明部分
+  image: #OGP画像のパス(サイトのassetsディレクトリ内に画像を入れて、assetsディレクトリ基準のパスを書き込む)
+
+markup:
+  highlight:
+    noClasses: false
+```
+
 ### アーカイブを表示したい場合
 
 `content`ディレクトリ内に`archives.md`を作成し、下の内容を書き込む。
