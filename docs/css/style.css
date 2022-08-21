@@ -61,6 +61,12 @@ pre {
   line-height: 1.5;
 }
 
+/* history */
+.history {
+  font-size: small;
+  font-style: italic;
+}
+
 /* tags */
 .tags {
   font-size: small;

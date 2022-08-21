@@ -26,6 +26,8 @@ menu:
         newtab: true
 
 params:
+  showsource: true
+  contenturl: https://github.com/minetaro12/hugo-simple-dark/tree/examplesite/content/
   description: Hugo SimpleDark Theme
   image: img/ogp.jpg
 
