@@ -7,7 +7,10 @@
 {{ end }}
 
 {{ define "main" }}
-  <time>{{ .Date.Format "2006-01-02 15:04:05" }}</time>
+  <time>{{ .Date.Format "2006-01-02 15:04:05" }}</time> |
+  {{ if .Site.Params.showsource }}
+  <a href="{{ .Site.Params.contenturl }}{{ .File.Path }}" target="_blank" rel="noopener noreferrer" class="history">History</a> |
+  {{ end }}
   {{ range (.GetTerms "tags") }}
     <a href="{{ .Permalink }}" class="tags">{{ .LinkTitle }}</a>
   {{ end }}

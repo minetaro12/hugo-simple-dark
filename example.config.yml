@@ -21,6 +21,8 @@ menu:
         newtab: true
 
 params:
+  showsource: true
+  contenturl: https://github.com/yourname/site-repo/tree/master/content/
   description: Hello
   image: #ogp image
 

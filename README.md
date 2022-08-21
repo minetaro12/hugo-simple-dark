@@ -56,6 +56,8 @@ menu:
         newtab: true #新しいタブで開くようにする
 
 params:
+  showsource: true #記事にソースへのリンクを表示するかどうか
+  contenturl: https://github.com/yourname/site-repo/tree/master/content/ #ソースのcontentディレクトリのURL
   description: Hello #OGPの説明部分
   image: #OGP画像のパス(サイトのassetsディレクトリ内に画像を入れて、assetsディレクトリ基準のパスを書き込む)
 
