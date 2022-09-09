@@ -18,3 +18,12 @@ article {
   margin: auto;
   padding-bottom: 1rem;
 }
+
+/* post a tag */
+.post-content a {
+  border-bottom: 0.07rem solid;
+}
+
+.post-content a:hover {
+  border-bottom: solid;
+}
