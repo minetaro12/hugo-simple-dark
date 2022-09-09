@@ -1,9 +1,9 @@
-<h2>
+<p>
   <a href="{{ .Site.BaseURL }}" class="title">
     {{ .Site.Title }}
   </a>
-</h2>
-[
+</p>
+
 {{ range .Site.Menus.header }}
   {{ if eq .Params.newtab true }}
     <a href="{{ .URL }}" class="header-menu" target="_blank">{{ .Name }}</a>
@@ -11,5 +11,5 @@
     <a href="{{ .URL }}" class="header-menu">{{ .Name }}</a>
   {{ end }}
 {{ end }}
-]
+
 <hr class="outhr">
