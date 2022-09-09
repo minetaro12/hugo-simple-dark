@@ -62,3 +62,9 @@ showToc: false
 |----|---|
 |Bob|27|
 |Alice|23|
+
+---
+
+# Link
+
+[example.com](https://example.com)
