@@ -6,7 +6,7 @@
 
 {{ range .Site.Menus.header }}
   {{ if eq .Params.newtab true }}
-    <a href="{{ .URL }}" class="header-menu" target="_blank">{{ .Name }}</a>
+    <a href="{{ .URL }}" class="header-menu" target="_blank" rel="noopener noreferrer">{{ .Name }}</a>
   {{ else }}
     <a href="{{ .URL }}" class="header-menu">{{ .Name }}</a>
   {{ end }}
