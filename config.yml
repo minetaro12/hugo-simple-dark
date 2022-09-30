@@ -33,4 +33,4 @@ params:
 
 markup:
   highlight:
-    noClasses: false
+    style: monokai
