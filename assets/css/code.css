@@ -7,6 +7,10 @@ code {
   border-radius: 5px;
 }
 
+.post-content > pre > code {
+  background-color: #353535;
+}
+
 /*inline code*/
 p > code {
   background-color: #353535;
