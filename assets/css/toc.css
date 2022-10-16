@@ -1,14 +1,25 @@
-.toc > details > summary {
+.toc > details {
   background-color: #2a2a2a;
   border-radius: 10px;
-  padding: 4px;
+  padding: 10px;
   cursor: zoom-in;
 }
 
-.toc > details[open] > summary {
+.toc > details[open] {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  cursor: zoom-out;
+  padding: 10px;
+}
+
+.toc > details[open]{
   cursor: zoom-out;
 }
 
 nav#TableOfContents {
   line-height: 1.5;
+}
+
+nav#TableOfContents a {
+  color: #cccccc;
 }
