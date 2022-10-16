@@ -96,6 +96,11 @@ pre {
 
 .post-content a:hover {
   border-bottom: solid;
+}
+
+.post-content a.headline-hash {
+  color: #7f7f7f;
+  border-bottom: none;
 }/* scrollbar */
 ::-webkit-scrollbar {
   width: 15px;
@@ -128,11 +133,11 @@ pre {
 }
 
 .outer {
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .outer {
     width: 100%;
   }
@@ -151,17 +156,28 @@ pre {
 }time {
   font-style: italic;
   font-size: small;
-}.toc > details > summary {
+}.toc > details {
   background-color: #2a2a2a;
   border-radius: 10px;
-  padding: 4px;
+  padding: 10px;
   cursor: zoom-in;
 }
 
-.toc > details[open] > summary {
+.toc > details[open] {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  cursor: zoom-out;
+  padding: 10px;
+}
+
+.toc > details[open]{
   cursor: zoom-out;
 }
 
 nav#TableOfContents {
   line-height: 1.5;
+}
+
+nav#TableOfContents a {
+  color: #cccccc;
 }
