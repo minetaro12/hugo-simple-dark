@@ -27,3 +27,8 @@ article {
 .post-content a:hover {
   border-bottom: solid;
 }
+
+.post-content a.headline-hash {
+  color: #7f7f7f;
+  border-bottom: none;
+}

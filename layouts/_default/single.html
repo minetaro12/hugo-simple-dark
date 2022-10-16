@@ -17,7 +17,7 @@
   <h1 class="post-title">{{ .Title }}</h1>
   {{ partial "toc" . }}
   <article class="post-content">
-    {{ .Content }}
+    {{ .Content | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" "${1}&nbsp;<a class=\"headline-hash\" href=\"#${2}\">#</a> ${3}" | safeHTML }}
   </article>
   {{ if .Params.comments }}
     {{ partial "comments" . }}
