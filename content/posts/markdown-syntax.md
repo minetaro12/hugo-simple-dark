@@ -68,3 +68,9 @@ showToc: false
 # Link
 
 [example.com](https://example.com)
+
+---
+
+# TeX
+
+$x=\frac{-b\pm\sqrt{b\^2-4ac}}{2a}$
