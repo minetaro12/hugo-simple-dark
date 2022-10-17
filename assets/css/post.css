@@ -31,4 +31,17 @@ article {
 .post-content a.headline-hash {
   color: #7f7f7f;
   border-bottom: none;
+  display: none;
+}
+
+.post-content h1:hover a.headline-hash {
+  display: inline;
+}
+
+.post-content h2:hover a.headline-hash {
+  display: inline;
+}
+
+.post-content h3:hover a.headline-hash {
+  display: inline;
 }
