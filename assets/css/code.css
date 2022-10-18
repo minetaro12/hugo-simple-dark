@@ -7,8 +7,11 @@ code {
   border-radius: 5px;
 }
 
-.post-content > pre > code {
-  background-color: #353535;
+.post-content > pre {
+  color: #f8f8f2;
+  background-color: #272822;
+  border-radius: 5px;
+  overflow: auto;
 }
 
 /*inline code*/
@@ -16,6 +19,8 @@ p > code {
   background-color: #353535;
 }
 
-pre {
+/* syntaxhighlight */
+.highlight > pre {
+  border-radius: 5px;
   overflow: auto;
 }
