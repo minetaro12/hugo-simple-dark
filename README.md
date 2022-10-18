@@ -63,7 +63,7 @@ params:
 
 markup:
   highlight:
-    noClasses: false
+    style: monokai #see https://xyproto.github.io/splash/docs/all.html
 ```
 
 ### アーカイブを表示したい場合
