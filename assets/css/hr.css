@@ -10,3 +10,7 @@ hr {
   color: #cccccc;
   margin: 1rem auto;
 }
+
+header > .outhr {
+  margin-bottom: auto;
+}

@@ -2,24 +2,24 @@ article {
   line-height: 1.5;
 }
 
-/* history */
 .history {
   font-size: small;
   font-style: italic;
 }
 
-/* tags */
 .tags {
   font-size: small;
 }
 
-/* post title */
+.post-meta {
+  margin-top: 1rem;
+}
+
 .post-title {
   margin: auto;
   padding-bottom: 1rem;
 }
 
-/* post a tag */
 .post-content a {
   border-bottom: 0.07rem solid;
 }
