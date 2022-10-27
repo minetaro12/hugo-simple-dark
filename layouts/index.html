@@ -1,6 +1,7 @@
 {{ define "head" }}
   {{ if os.FileExists "content/_index.md" }}
-    {{ partial "highlightjs" . }}
+    {{ partial "firacode" . }}
+    {{ partial "katex" . }}
   {{ end }}
 {{ end }}
 
