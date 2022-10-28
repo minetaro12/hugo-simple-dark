@@ -15,6 +15,10 @@ article {
   margin-top: 1rem;
 }
 
+.post-meta * {
+  margin-right: 5px;
+}
+
 .post-title {
   margin: auto;
   padding-bottom: 1rem;
