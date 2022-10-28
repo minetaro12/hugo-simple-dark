@@ -7,7 +7,9 @@
 
 {{ define "main" }}
 {{ if os.FileExists "content/_index.md" }}
-    {{ .Content }}
+    <article>
+      {{ .Content }}
+    </article>
   {{ else }}
     {{ range .Site.RegularPages }}
       {{ if in .Permalink "posts" }}
