@@ -5,7 +5,7 @@ tags: ["hugo","markdown"]
 comments: true
 showToc: false
 ---
-# Headings
+## Headings
 
 # H1
 ## H2
@@ -16,7 +16,7 @@ showToc: false
 
 ---
 
-# Code Blocks
+## Code Blocks
 
 ### Inline Code
 `This is Inline Code`
@@ -37,7 +37,7 @@ showToc: false
 
 ---
 
-# List Types
+## List Types
 
 ### Ordered List
 1. First item
@@ -54,9 +54,14 @@ showToc: false
   - First Sub-item
   - Second Sub-item
 
+
+### Checked list
+- [x] Checked item
+- [ ] Unchecked item
+
 ---
 
-# Tables
+## Tables
 
 |Name|Age|
 |----|---|
@@ -65,12 +70,12 @@ showToc: false
 
 ---
 
-# Link
+## Link
 
 [example.com](https://example.com)
 
 ---
 
-# TeX
+## TeX
 
 $x=\frac{-b\pm\sqrt{b\^2-4ac}}{2a}$
