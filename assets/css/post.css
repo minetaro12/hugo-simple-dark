@@ -4,7 +4,6 @@ article {
 
 .history {
   font-size: small;
-  font-style: italic;
 }
 
 .tags {
@@ -12,23 +11,19 @@ article {
 }
 
 .post-meta {
-  margin-top: 1rem;
-}
-
-.post-meta * {
-  margin-right: 5px;
+  margin-bottom: 1rem;
 }
 
 .post-title {
   margin: auto;
-  padding-bottom: 1rem;
+  margin-top: 1rem;
 }
 
-.post-content a {
+.post-content a, .post-meta a {
   border-bottom: 0.07rem solid;
 }
 
-.post-content a:hover {
+.post-content a:hover, .post-meta a:hover {
   border-bottom: solid;
 }
 

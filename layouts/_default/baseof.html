@@ -6,6 +6,7 @@
     {{ $CSS := resources.Match "css/**.css" | resources.Concat "css/style.css" | resources.Minify }}
     <link rel="stylesheet" href="{{ $CSS.RelPermalink }}">
     {{ partial "ogp" . }}
+    {{ partial "icomoon" . }}
     {{ block "head" . }}
     {{ end }}
     <title>

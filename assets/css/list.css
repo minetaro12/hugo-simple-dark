@@ -2,3 +2,13 @@ li ul {
   margin: 0 0 0 1em;
   padding: 0;
 }
+
+.list-post {
+  padding: 0;
+  list-style: none;
+}
+
+.list-item {
+  border-bottom: 1px dashed rgb(141, 141, 141);
+  margin-bottom: 10px;
+}

@@ -11,11 +11,17 @@
       {{ .Content }}
     </article>
   {{ else }}
-    {{ range .Site.RegularPages }}
-      {{ if in .Permalink "posts" }}
-        <p><a href="{{ .Permalink }}">{{ .Title }}</a> -
-        <time>{{ .Date.Format "2006-01-02" }}</time></p>
+    <ul class="list-post">
+      {{ range .Site.RegularPages }}
+        {{ if in .Permalink "posts" }}
+          <li class="list-item">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <div>
+              <span class="icon-calendar"></span><time style="font-size: small;">{{ .Date.Format "2006-01-02" }}</time>
+            </div>
+          </li>
+        {{ end }}
       {{ end }}
-    {{ end }}
+    </ul>
   {{ end }}
 {{ end }}
