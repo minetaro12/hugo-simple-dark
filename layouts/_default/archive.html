@@ -4,15 +4,21 @@
 
 {{ define "main" }}
   <h2>{{ .Title }}</h2>
-  {{ range .Site.RegularPages.GroupByDate "2006" }}
-    {{ if ge .Key 2000}}
-      <h3>{{ .Key }}</h3>
-      {{ range .Pages }}
-        {{ if in .Permalink "posts" }}
-          <p><a href={{ .Permalink }}>{{ .Title }}</a> -
-          <time>{{ .Date.Format "01-02" }}</time></p>
+  <ul class="list-post">
+    {{ range .Site.RegularPages.GroupByDate "2006-01" }}
+      {{ if  not (in .Key "0001") }}
+        <h3>{{ .Key }}</h3>
+        {{ range .Pages }}
+          {{ if in .Permalink "posts" }}
+            <li class="list-item">
+              <a href={{ .Permalink }}>{{ .Title }}</a>
+              <div>
+                <span class="icon-calendar"></span><time>{{ .Date.Format "2006-01-02" }}</time>
+              </div>
+            </li>
+          {{ end }}
         {{ end }}
       {{ end }}
     {{ end }}
-  {{ end }}
+  </ul>
 {{ end }}
